@@ -1,5 +1,9 @@
-#### Lab Tools
+### Lab Tools
 This is a collection of scripts to automate working with Compute Canada, specifically Cedar. 
+
+### Disclaimer
+These are scripts written to solve specific tasks, with specific assumptions, some of them implicit and may not apply to your use case. Use at your own risk, and we take no liability or blame whatsoever if applying these wipe out your data, set your lab on fire or invoke the wrath of Cedar's admin team. You're mildly encouraged to contribute to buy us a beer if you find them useful and/or to issue pull requests with your improvements.
+
 ##### Requirements
 * *Nix Environment (bash, grep, awk, ...)
 * SSH key & account configured for Cedar
