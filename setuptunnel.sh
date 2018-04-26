@@ -37,7 +37,7 @@ LOCALPORT=9000
 CEDARPORT=8989
 CAUSER=$USER
 
-CEDARNODE=$(ssh $USER@cedar.computecanada.ca ./getnode.sh)
+CEDARNODE=$(ssh $USER@cedar.computecanada.ca ./repositories/lab_tools/getnode.sh)
 if (( $CEDARNODE == -1 ));then
   echo "---!!!--- No node was assigned to you by cedar, so setting up a tunnel is somewhat beyond the capabilities of this script. ---!!!---"
   echo "---!!!--- squeue -u <you> in Cedar will help you out.---!!!---"
